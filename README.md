@@ -153,7 +153,7 @@ Now we can decide what we will do with the merge conflict. Continue as in scenar
 
 # Scenario 8 - What about a merge request (pull request) related to both repos? How to handle that?
 
-One positive aspect of using submodule is, that in our merge request branch, we still have the code of the shared repo (with a `.gitrepo` file in there). That way, it is indeed possible to indirectly review content of shared repo from project_bare repo.
+One positive aspect of using subrepo is, that in our merge request branch, we still have the code of the shared repo (with a `.gitrepo` file in there). That way, it is indeed possible to indirectly review content of shared repo from project_bare repo.
 
 However, changes to the subrepo should be of course applied in the subrepo repository. Thus, we need two merge requests. 
 You could consider discussing and reviewing code in the project merge request only, though.
