@@ -112,6 +112,11 @@ How do we do branching of shared repo from project repo then?
 
 The new branch is nor being created for us. Now changes have been also pushed in the new branch of shared repository.
 
+# Issue at Scenario 5:
+
+If you cant use ``` git subrepo push ``` make sure you got your git language is set to english. You can temporarily do that by just using ```LANG=C```.
+
+
 # Scenario 5.1 - Working on the new branch
 
 1. Make some changes in project repo, still on `scenario_5` branch. Make some commits with changes in `/tmp/project/shared`, `/tmp/project`, and push them.
